@@ -1,0 +1,100 @@
+1. nueva york
+2. Los Angeles
+3. san francisco
+4. LONDRES
+5. paris
+6. TOKIO
+7. ciudad de méxico
+8. rio de janeiro
+9. moscú
+10. BEIJING
+11. sydney
+12. buenos aires
+13. hong kong
+14. berlin
+15. mumbai
+16. dubai
+17. roma
+18. sao paulo
+19. barcelona
+20. nueva delhi
+21. amsterdam
+22. bangkok
+23. istanbul
+24. seoul
+25. shanghai
+26. TORONTO
+27. chicago
+28. madrid
+29. bogotá
+30. buenos aires
+31. vancouver
+32. osaka
+33. miami
+34. montréal
+35. londres
+36. santiago
+37. abu dhabi
+38. las vegas
+39. zurich
+40. viena
+41. lisboa
+42. san petersburgo
+43. dublín
+44. boston
+45. lima
+46. cádiz
+47. kuala lumpur
+48. ámsterdam
+49. praga
+50. ginebra
+51. kioto
+52. bruselas
+53. frankfurt
+54. washington dc
+55. stockholm
+56. oslo
+57. COPENHAGEN
+58. auckland
+59. zurich
+60. DUBLÍN
+61. EDIMBURGO
+62. HAMBURG
+63. buenos aires
+64. miami
+65. amman
+66. CUSCO
+67. austin
+68. vancouver
+69. RÍO DE JANEIRO
+70. NUEVA ORLEANS
+71. reykjavik
+72. SEATTLE
+73. dublín
+74. kiev
+75. melbourne
+76. TEL AVIV
+77. HO CHI MINH CITY
+78. PORTO
+79. DELHI
+80. SEOUL
+81. ESTAMBUL
+82. AMSTERDAM
+83. SAN FRANCISCO
+84. WASHINGTON, D.C.
+85. SAN JUAN
+86. BRISBANE
+87. guadalajara
+88. SAN DIEGO
+89. los angeles
+90. BANGKOK
+91. barcelona
+92. abu dhabi
+93. SHANGHÁI
+94. SYDNEY
+95. RÍO DE JANEIRO
+96. TEL AVIV
+97. SEATTLE
+98. PRAGA
+99. DUBÁI
+100. BUENOS AIRES

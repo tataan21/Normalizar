@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Normalizador de Datos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .descarga {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Normalizador de Datos</h1>
+    <form action="/procesar" method="post" enctype="multipart/form-data">
+        <label for="archivo">Selecciona un archivo (.txt):</label>
+        <input type="file" name="archivo" required><br><br>
+        <label for="tipo">Tipo de normalización:</label>
+        <select name="tipo" required>
+            <option value="famosos">Fechas de nacimiento de personajes</option>
+            <option value="texto">Texto general</option>
+            <option value="lugares">Lugares con georeferencias</option>
+        </select><br><br>
+        <input type="submit" value="Procesar">
+    </form>
+
+    {% if tabla_html %}
+        <div class="descarga">
+            <a href="{{ url_for('descargar', nombre=nombre_archivo) }}" target="_blank">
+                <button>📥 Descargar Excel</button>
+            </a>
+        </div>
+        <h2>Resultado Normalizado:</h2>
+        {{ tabla_html|safe }}
+    {% endif %}
+
+</body>
+</html>
