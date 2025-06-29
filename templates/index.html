@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Normalizador de Datos</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-top: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .descarga {
-            margin-top: 30px;
-        }
-    </style>
+
+    <!-- Enlace a hoja de estilos externa -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
 </head>
 <body>
+
+    <!-- Título principal de la aplicación web -->
     <h1>Normalizador de Datos</h1>
+
+    <!-- Formulario para subir archivo y seleccionar tipo de normalización -->
     <form action="/procesar" method="post" enctype="multipart/form-data">
+        <!-- Campo para cargar el archivo -->
         <label for="archivo">Selecciona un archivo (.txt):</label>
         <input type="file" name="archivo" required><br><br>
+
+        <!-- Menú desplegable para elegir qué tipo de normalización aplicar -->
         <label for="tipo">Tipo de normalización:</label>
         <select name="tipo" required>
             <option value="famosos">Fechas de nacimiento de personajes</option>
-            <option value="texto">Texto general</option>
+            <option value="texto">Ciudades</option>
             <option value="lugares">Lugares con georeferencias</option>
         </select><br><br>
+
+        <!-- Botón para enviar el formulario -->
         <input type="submit" value="Procesar">
     </form>
 
+    <!-- Esta sección solo aparece si se ha generado una tabla de resultados -->
     {% if tabla_html %}
         <div class="descarga">
+            <!-- Enlace para descargar el archivo Excel generado -->
             <a href="{{ url_for('descargar', nombre=nombre_archivo) }}" target="_blank">
                 <button>📥 Descargar Excel</button>
             </a>
         </div>
+
+        <!-- Encabezado para la tabla de resultados -->
         <h2>Resultado Normalizado:</h2>
+
+        <!-- Aquí se inserta dinámicamente la tabla HTML generada por Flask -->
         {{ tabla_html|safe }}
     {% endif %}
 

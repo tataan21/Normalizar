@@ -3,61 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Resultado de Normalización</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-        }
-        h1 {
-            color: #333;
-        }
-        .data {
-            border-collapse: collapse;
-            width: 100%;
-            margin-top: 20px;
-        }
-        .data th, .data td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-        .data th {
-            background-color: #f2f2f2;
-        }
-        .boton-container {
-            margin-bottom: 20px;
-        }
-        .boton-descarga, .volver {
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-right: 10px;
-        }
-        .volver {
-            background-color: #6c757d;
-        }
-        .boton-descarga:hover {
-            background-color: #0056b3;
-        }
-        .volver:hover {
-            background-color: #5a6268;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
 </head>
 <body>
+
+    <!-- Título que se envía dinámicamente desde Flask -->
     <h1>{{ titulo }}</h1>
 
+    <!-- Botones para descargar Excel y volver al inicio -->
     <div class="boton-container">
+        <!-- Botón para descargar el Excel generado -->
         <a href="/descargar" class="boton-descarga">📥 Descargar Excel</a>
+
+        <!-- Botón para volver a la página principal -->
         <a href="/" class="volver">← Volver al inicio</a>
     </div>
 
+    <!-- Renderizado dinámico de las tablas procesadas -->
     {% for tabla in tablas %}
         {{ tabla | safe }}
     {% endfor %}
+
 </body>
 </html>
 

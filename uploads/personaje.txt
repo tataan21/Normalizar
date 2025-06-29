@@ -1,0 +1,102 @@
+Barack Obama	1961-08-04
+Donald Trump	14/06/1946
+Angela Merkel	1954/07/17
+Xi Jinping	15-06-1953
+Vladimir Putin	1952/10/07
+Joe Biden	20-11-1942
+Emmanuel Macron	21/12/1977
+Justin Trudeau	1971/12/25
+Elon Musk	28/06/1971
+Bill Gates	1955/10/28
+Mark Zuckerberg	14-05-1984
+Jeff Bezos	1964/01/12
+Oprah Winfrey	29-01-1954
+Beyoncé	1981/09/04
+Taylor Swift	13/12/1989
+Shakira	1977-02-02
+Rihanna	20-02-1988
+Katy Perry	25/10/1984
+Lady Gaga	1986/03/28
+Madonna	16-08-1958
+Brad Pitt	18/12/1963
+Angelina Jolie	1975/06/04
+Leonardo DiCaprio	11-11-1974
+Tom Cruise	1962/07/03
+Johnny Depp	09/06/1963
+Keanu Reeves	1964/09/02
+Morgan Freeman	1937-06-01
+Robert De Niro	17/08/1943
+Al Pacino	25-04-1940
+Denzel Washington	1954/12/28
+Chris Hemsworth	11/08/1983
+Chris Evans	1981-06-13
+Chris Pratt	21/06/1979
+Emma Watson	15-04-1990
+Daniel Radcliffe	23/07/1989
+Rupert Grint	1988-08-24
+Jennifer Lawrence	15/08/1990
+Scarlett Johansson	22-11-1984
+Natalie Portman	1981/06/09
+Meryl Streep	22/06/1949
+Julia Roberts	1967-10-28
+Sandra Bullock	26-07-1964
+Anne Hathaway	12/11/1982
+Ryan Reynolds	1976/10/23
+Hugh Jackman	1968-10-12
+Christian Bale	30/01/1974
+Benedict Cumberbatch	19-07-1976
+Tom Hiddleston	1981/02/09
+Gal Gadot	30-04-1985
+Jason Momoa	1979/08/01
+Henry Cavill	05/05/1983
+Zac Efron	18-10-1987
+Timothée Chalamet	1995/12/27
+Zendaya	01-09-1996
+Florence Pugh	1996-01-03
+Millie Bobby Brown	19/02/2004
+Noah Schnapp	2004-10-03
+Finn Wolfhard	23/12/2002
+Gaten Matarazzo	2002-09-08
+Caleb McLaughlin	13-10-2001
+Sadie Sink	2002/04/16
+Winona Ryder	29-06-1971
+David Harbour	1975/04/10
+Natalia Dyer	13/01/1995
+Charlie Heaton	06-02-1994
+Joe Keery	1992/04/24
+Maya Hawke	1998-07-08
+Paul McCartney	18/06/1942
+Mick Jagger	26-07-1943
+Keith Richards	18-12-1943
+Ringo Starr	07/07/1940
+George Harrison	1943/02/25
+John Mayer	16/10/1977
+Ed Sheeran	17-02-1991
+Adele	1988/05/05
+Bruno Mars	08/10/1985
+Harry Styles	1994/02/01
+Zayn Malik	12-01-1993
+Liam Payne	29/08/1993
+Niall Horan	13/09/1993
+Louis Tomlinson	24-12-1991
+Kanye West	1977-06-08
+Drake	24/10/1986
+Kendrick Lamar	1987-06-17
+Travis Scott	30/04/1992
+Post Malone	04-07-1995
+Eminem	17/10/1972
+Snoop Dogg	20-10-1971
+Ice Cube	15-06-1969
+Lil Wayne	1982/09/27
+Nicki Minaj	08/12/1982
+Cardi B	11/10/1992
+Doja Cat	1995-10-21
+Megan Thee Stallion	15/02/1995
+Burna Boy	02/07/1991
+Bad Bunny	1994/03/10
+J Balvin	07/05/1985
+Maluma	28/01/1994
+Karol G	14-02-1991
+Anitta	30-03-1993
+
+
